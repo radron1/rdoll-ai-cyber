@@ -33,3 +33,146 @@
     ]
   }
 }
+
+
+S C:\Users\rdoll\react-landing-page-template> git remote add origin https://github.com/radron1/rdoll-ai-cyber.git
+PS C:\Users\rdoll\react-landing-page-template> git add .
+warning: in the working copy of 'yarn.lock', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\rdoll\react-landing-page-template> git commit -m "intial commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'rdoll@radronz.(none)')
+
+
+PS C:\Users\rdoll\react-landing-page-template> git config --global user.email "rdollesin@outlook.com"               
+PS C:\Users\rdoll\react-landing-page-template> git commit -m "intial commit"
+[main (root-commit) f5f64c0] intial commit
+ 115 files changed, 48102 insertions(+)
+ create mode 100644 .github/FUNDING.yml
+ create mode 100644 .github/ISSUE_TEMPLATE/bug_report.md
+ create mode 100644 .github/ISSUE_TEMPLATE/feature_request.md
+ create mode 100644 .github/workflows/deploy.yml
+ create mode 100644 .gitignore
+ create mode 100644 LICENSE
+ create mode 100644 README.md
+ create mode 100644 _config.yml
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/css/bootstrap.css
+ create mode 100644 public/css/bootstrap.min.css
+ create mode 100644 public/css/nivo-lightbox/close.png
+ create mode 100644 public/css/nivo-lightbox/close@2x.png
+ create mode 100644 public/css/nivo-lightbox/default.css
+ create mode 100644 public/css/nivo-lightbox/loading.gif
+ create mode 100644 public/css/nivo-lightbox/loading@2x.gif
+ create mode 100644 public/css/nivo-lightbox/next.png
+ create mode 100644 public/css/nivo-lightbox/next@2x.png
+ create mode 100644 public/css/nivo-lightbox/nivo-lightbox.css
+ create mode 100644 public/css/nivo-lightbox/prev.png
+ create mode 100644 public/css/nivo-lightbox/prev@2x.png
+ create mode 100644 public/css/style.css
+ create mode 100644 public/fonts/font-awesome/css/font-awesome.css
+ create mode 100644 public/fonts/font-awesome/css/font-awesome.min.css
+ create mode 100644 public/fonts/font-awesome/fonts/FontAwesome.otf
+ create mode 100644 public/fonts/font-awesome/fonts/fontawesome-webfont.eot
+ create mode 100644 public/fonts/font-awesome/fonts/fontawesome-webfont.svg
+ create mode 100644 public/fonts/font-awesome/fonts/fontawesome-webfont.ttf
+ create mode 100644 public/fonts/font-awesome/fonts/fontawesome-webfont.woff
+ create mode 100644 public/fonts/font-awesome/fonts/fontawesome-webfont.woff2
+ create mode 100644 public/fonts/font-awesome/less/animated.less
+ create mode 100644 public/fonts/font-awesome/less/bordered-pulled.less
+ create mode 100644 public/fonts/font-awesome/less/core.less
+ create mode 100644 public/fonts/font-awesome/less/fixed-width.less
+ create mode 100644 public/fonts/font-awesome/less/font-awesome.less
+ create mode 100644 public/fonts/font-awesome/less/icons.less
+ create mode 100644 public/fonts/font-awesome/less/larger.less
+ create mode 100644 public/fonts/font-awesome/less/list.less
+ create mode 100644 public/fonts/font-awesome/less/mixins.less
+ create mode 100644 public/fonts/font-awesome/less/path.less
+ create mode 100644 public/fonts/font-awesome/less/rotated-flipped.less
+ create mode 100644 public/fonts/font-awesome/less/stacked.less
+ create mode 100644 public/fonts/font-awesome/less/variables.less
+ create mode 100644 public/fonts/font-awesome/scss/_animated.scss
+ create mode 100644 public/fonts/font-awesome/scss/_bordered-pulled.scss
+ create mode 100644 public/fonts/font-awesome/scss/_core.scss
+ create mode 100644 public/fonts/font-awesome/scss/_fixed-width.scss
+ create mode 100644 public/fonts/font-awesome/scss/_icons.scss
+ create mode 100644 public/fonts/font-awesome/scss/_larger.scss
+ create mode 100644 public/fonts/font-awesome/scss/_list.scss
+ create mode 100644 public/fonts/font-awesome/scss/_mixins.scss
+ create mode 100644 public/fonts/font-awesome/scss/_path.scss
+ create mode 100644 public/fonts/font-awesome/scss/_rotated-flipped.scss
+ create mode 100644 public/fonts/font-awesome/scss/_stacked.scss
+ create mode 100644 public/fonts/font-awesome/scss/_variables.scss
+ create mode 100644 public/fonts/font-awesome/scss/font-awesome.scss
+ create mode 100644 public/fonts/fonts/glyphicons-halflings-regular.eot
+ create mode 100644 public/fonts/fonts/glyphicons-halflings-regular.svg
+ create mode 100644 public/fonts/fonts/glyphicons-halflings-regular.ttf
+ create mode 100644 public/fonts/fonts/glyphicons-halflings-regular.woff
+ create mode 100644 public/fonts/fonts/glyphicons-halflings-regular.woff2
+ create mode 100644 public/img/about.jpg
+ create mode 100644 public/img/intro-bg.jpg
+ create mode 100644 public/img/portfolio/01-large.jpg
+ create mode 100644 public/img/portfolio/01-small.jpg
+ create mode 100644 public/img/portfolio/02-large.jpg
+ create mode 100644 public/img/portfolio/02-small.jpg
+ create mode 100644 public/img/portfolio/03-large.jpg
+ create mode 100644 public/img/portfolio/03-small.jpg
+ create mode 100644 public/img/portfolio/04-large.jpg
+ create mode 100644 public/img/portfolio/04-small.jpg
+ create mode 100644 public/img/portfolio/05-large.jpg
+ create mode 100644 public/img/portfolio/05-small.jpg
+ create mode 100644 public/img/portfolio/06-large.jpg
+ create mode 100644 public/img/portfolio/06-small.jpg
+ create mode 100644 public/img/portfolio/07-large.jpg
+ create mode 100644 public/img/portfolio/07-small.jpg
+ create mode 100644 public/img/portfolio/08-large.jpg
+ create mode 100644 public/img/portfolio/08-small.jpg
+ create mode 100644 public/img/portfolio/09-large.jpg
+ create mode 100644 public/img/portfolio/09-small.jpg
+ create mode 100644 public/img/team/01.jpg
+ create mode 100644 public/img/team/02.jpg
+ create mode 100644 public/img/team/03.jpg
+ create mode 100644 public/img/team/04.jpg
+ create mode 100644 public/img/testimonials/01.jpg
+ create mode 100644 public/img/testimonials/02.jpg
+ create mode 100644 public/img/testimonials/03.jpg
+ create mode 100644 public/img/testimonials/04.jpg
+ create mode 100644 public/img/testimonials/05.jpg
+ create mode 100644 public/img/testimonials/06.jpg
+ create mode 100644 public/index.html
+ create mode 100644 public/js/bootstrap.js
+ create mode 100644 public/js/jquery.1.11.1.js
+ create mode 100644 public/robots.txt
+ create mode 100644 src/App.css
+ create mode 100644 src/App.jsx
+ create mode 100644 src/components/Team.jsx
+ create mode 100644 src/components/about.jsx
+ create mode 100644 src/components/contact.jsx
+ create mode 100644 src/components/features.jsx
+ create mode 100644 src/components/gallery.jsx
+ create mode 100644 src/components/header.jsx
+ create mode 100644 src/components/image.jsx
+ create mode 100644 src/components/navigation.jsx
+ create mode 100644 src/components/services.jsx
+ create mode 100644 src/components/testimonials.jsx
+ create mode 100644 src/data/data.json
+ create mode 100644 src/index.css
+ create mode 100644 src/index.js
+ create mode 100644 src/logo.svg
+ create mode 100644 src/serviceWorker.js
+ create mode 100644 src/setupTests.js
+ create mode 100644 yarn.lock
+PS C:\Users\rdoll\react-landing-page-template> 
+
+
